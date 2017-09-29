@@ -4,18 +4,18 @@ CREATE TABLE `Products` (
   `ProductID` int PRIMARY KEY,
   `Quantity` int NOT NULL,
   `Price` double NOT NULL,
-  `SupName` varchar(100),
-  `SupPhone` int
+  `SupName` varchar(100) NOT NULL,
+  `SupPhone` int NOT NULL
 );
 
 
 CREATE TABLE `Orders` (
   `OrderID` int PRIMARY KEY,
-  `OrderDate` DATETIME,
+  `OrderDate` DATETIME NOT NULL,
   `CustName` varchar(100) NOT NULL,
-  `Total` double,
-  `Payment` varchar(100),
-  `ItemsBought` varchar(4000)
+  `Total` double NOT NULL,
+  `Payment` varchar(100) NOT NULL,
+  `ItemsBought` varchar(4000) NOT NULL
 );
 
 
