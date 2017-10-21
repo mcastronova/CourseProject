@@ -12,3 +12,4 @@ IDE: IntelliJ IDEA Community 2017 2.5 (x64)
 OS: Windows 10 and Mac OS X  
 DB: SQLite through JDBC 3.20.0.  
 
+ver1 2.zip contains the store database.
